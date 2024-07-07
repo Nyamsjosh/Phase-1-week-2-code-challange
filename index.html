@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main id="mainContainer">
+      <h1>SHOPPING LIST...</h1>
+      <p>
+        Welcome: =>
+        <button id="proceedButton">Click to proceed</button>
+      </p>
+      <div id="container">
+        <input
+          type="text"
+          id="shoppingItemsInput"
+          placeholder="  Enter the shopping items"
+        />
+
+        <button id="addItems">Add Item</button>
+
+        <button id="deleteItems">Delete Items</button>
+
+        <ol id="itemListNew"></ol>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Images/Screenshot\ from\ 2024-07-07\ 03-41-52.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  font-family: monospace;
+  font-weight: 400;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+#proceedButton {
+  height: 35px;
+  background-color: rgb(119, 54, 180);
+  color: white;
+  margin-top: 10px;
+  height: 50px;
+  width: 170px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#proceedButton:hover {
+  background-color: rgb(51, 0, 99);
+  border: 4px solid white;
+}
+#container {
+  background-image: url("./Images/ab2f7baa417d9bb8c7b2c41140fd153c.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 750px;
+  width: 750px;
+}
+
+#shoppingItemsInput {
+  border-radius: 4px;
+  height: 50px;
+  width: 650px;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+#addItems {
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-right: 30px;
+  margin-left: 400px;
+  cursor: pointer;
+  height: 45px;
+  width: 115px;
+  background-color: rgb(119, 54, 180);
+  color: white;
+  font-size: 20px;
+}
+#addItems:hover {
+  background-color: rgb(51, 0, 99);
+  border: 4px solid white;
+}
+#deleteItems {
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-right: 30px;
+  cursor: pointer;
+  height: 45px;
+  width: 130px;
+  background-color: rgb(119, 54, 180);
+  color: white;
+  font-size: 20px;
+}
+#deleteItems:hover {
+  background-color: rgb(51, 0, 99);
+  border: 4px solid white;
+  width: 145px;
+}
+
+.purchased {
+  text-decoration: underline;
+  color: rgb(113, 239, 113);
+  font-family: monospace;
+  font-style: italic;
+}
+.delete-button {
+  height: 40px;
+  width: 80px;
+  background-color: cadetblue;
+  font-size: 30px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid #ffffff;
+  background-color: rgb(51, 0, 99);
+  color: white;
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 500px;
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+li.purchased label {
+  text-decoration: line-through;
+  color: rgb(255, 0, 0);
+}
