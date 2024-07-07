@@ -62,10 +62,10 @@ The list will be saved in the browser's local storage and will persist even afte
 ### Installation and Setup
 
 1. Clone the repository:
-   git clone `https://github.com/your-username/interactive-shopping-list.git`
+   git clone `git@github.com:Nyamsjosh/Phase-1-week-2-code-challange.git`
 
 2. Navigate to the project directory:
-   cd interactive-shopping-list
+   cd Phase-1-week-2-code-challange
 
 3. Open index.html in your web browser to view the application.
 
@@ -84,6 +84,6 @@ The list will be saved in the browser's local storage and will persist even afte
 5. Push to the branch (git push).
 6. Open a Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Live link
+Click on the link below to deploy the code live on the browser.
+```https://nyamsjosh.github.io/Phase-1-week-2-code-challange/```
